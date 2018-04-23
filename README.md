@@ -14,7 +14,6 @@ After following these instructions you'll have:
 ### Step 0: Noveau drivers     
 Before you begin, you may need to disable the opensource ubuntu NVIDIA driver called [nouveau](https://nouveau.freedesktop.org/wiki/).
 
-**Option 1: Modify modprobe file**
 1. After you boot the linux system and are sitting at a login prompt, press ctrl+alt+F1 to get to a terminal screen.  Login via this terminal screen.
 2. Create a file: /etc/modprobe.d/nouveau
 3.  Put the following in the above file...
@@ -33,8 +32,7 @@ lsmod | grep nouveau
 ```
 
 If `nouveau` driver(s) are still loaded do not proceed with the installation guide and troubleshoot why it's still loaded.    
-
-**Option 2: Modify Grub load command**    
+ 
 From [this stackoverflow solution](https://askubuntu.com/questions/697389/blank-screen-ubuntu-15-04-update-with-nvidia-driver-nomodeset-does-not-work)    
 
 1. When the GRUB boot menu appears : Highlight the Ubuntu menu entry and press the E key.
