@@ -1,3 +1,10 @@
+
+# UPDATE
+This is how it's done. 
+> conda create --name tfgpu tensorflow-gpu 
+
+And that's that. 
+
 # Tensorflow GPU install on ubuntu 16.04    
 
 These instructions are intended to set up a deep learning environment for GPU-powered tensorflow.      
